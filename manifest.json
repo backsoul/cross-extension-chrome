@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "IOS Cross Platform",
+    "version": "1.0",
+    "description": "Cross platform extension and comunicate",
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "icon.png"
+        }
+    }
+}
